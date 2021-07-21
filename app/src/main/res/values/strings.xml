@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">WebViewApp</string>
+    <string-array name="web_list">
+        <item>Google</item>
+        <item>Youtube</item>
+        <item>TikTok</item>
+        <item>Stack Overflow</item>
+        <item>ABS-CBN</item>
+    </string-array>
 </resources>
