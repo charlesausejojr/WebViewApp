@@ -12,16 +12,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/gothammedium"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="A trip to the WEB!!" />
+        android:text="A Trip to the WEB" />
 
     <Button
         android:id="@+id/button"
+        android:height="70dp"
+        android:fontFamily="@font/gothammedium"
         android:layout_marginTop="100px"
         android:layout_marginLeft="40px"
         android:layout_marginRight="40px"
+        android:backgroundTint="#222222"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start Journey" />
