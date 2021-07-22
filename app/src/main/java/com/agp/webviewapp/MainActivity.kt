@@ -4,7 +4,6 @@ import android.app.AlertDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.Toast
 
@@ -23,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             AlertDialog.Builder(this)
                 .setIcon(R.drawable.ic_web)
                 .setTitle("Pick a path")
-                .setItems(items) { dialog, which ->
+                .setItems(items) { _, which ->
                     val intent = Intent(this, SecondActivity::class.java)
                     when(items[which]){
                         "Google" -> intent.putExtra("url","https://www.google.com")

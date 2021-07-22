@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="400px"
+    android:layout_height="400dp"
     android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -16,18 +15,19 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="A Trip to the WEB" />
+        android:text="@string/a_trip_to_the_web" />
 
     <Button
         android:id="@+id/button"
         android:height="70dp"
         android:fontFamily="@font/gothammedium"
-        android:layout_marginTop="100px"
-        android:layout_marginLeft="40px"
-        android:layout_marginRight="40px"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:backgroundTint="#222222"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Journey" />
+        android:text="@string/start_journey"
+        tools:targetApi="lollipop" />
 
 </LinearLayout>

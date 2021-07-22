@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">WebViewApp</string>
+    <string name="a_trip_to_the_web">A Trip to the WEB</string>
+    <string name="start_journey">Start Journey</string>
     <string-array name="web_list">
         <item>Google</item>
         <item>Youtube</item>
