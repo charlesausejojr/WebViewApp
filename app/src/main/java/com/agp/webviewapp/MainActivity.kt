@@ -1,3 +1,17 @@
+/*
+    Project name:       WebViewApp
+    Author:             Ausejo, Charles Jr.
+                        Gonzales, Christian Benedict C.
+                        Pepito, Nicolas Paolo M.
+    ID:                 16100938 Aus
+                        18105024 Gon
+                        16100825 Pep
+    Course and Year:    BS CpE-3
+    Date Created:       July 21, 2021
+    Date Last Revised:  July 21, 2021
+    Purpose:            Created. No revisions.
+ */
+
 package com.agp.webviewapp
 
 import android.app.AlertDialog
